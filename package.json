@@ -1,0 +1,13 @@
+{
+  "name": "naver-headline-crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Crawlee를 활용한 네이버 뉴스 헤드라인 크롤링 프로젝트입니다. AWS Lambda 함수를 위한 패키지로 관리 되고 있습니다.",
+  "dependencies": {
+      "crawlee": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+},
+  "license": "ISC"
+}
